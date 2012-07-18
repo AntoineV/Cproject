@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "fonction.h"
 
+
 void afficher_status_joueur(int position, int de,int argent)
 {
     printf("AVANT:Position:%d\tLancer:%d\t Argent:%d\n",position,de,argent);
