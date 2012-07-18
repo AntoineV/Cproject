@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1342632011 source:c:\users\antoine\documents\github\c\cproject\cproject\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fonction.h"
+
+1342631287 source:c:\users\antoine\documents\github\c\cproject\cproject\fonction.c
+	<stdio.h>
+	<stdlib.h>
+	"fonction.h"
+
+1342631287 c:\users\antoine\documents\github\c\cproject\cproject\fonction.h
+	<stdio.h>
+	<stdlib.h>
+
