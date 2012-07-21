@@ -10,7 +10,7 @@ void afficher_argent_joueur(int argent)
 {
     printf("Vous avez %d$\n",argent);
 }
-void afficher_cout_case(int* status_case[][],int position)
+void afficher_case(int status_case[],int position)
 {
-    printf("Cout case:%d\n", status_case[position][]);
+    printf("Cout case:%d\n", status_case[position]);
 }
