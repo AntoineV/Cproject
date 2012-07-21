@@ -2,24 +2,25 @@
 #include <stdlib.h>
 #include <time.h>
 #include"fonction.h"
+
 int main()
 {
     int nbcase = 20, de=0; //Conditions de jeu
     int position=0,argent=100; //Variables de départ
     int MIN= 1, MAX=6; //Nb de face du dé
     int oui_non=0; //Choix de continuer ou pas
-    int status_case[nbcase][2];
+    int status_case[nbcase];
     int i;
 
     srand(time(NULL));
 
     for(i=0;i<nbcase;i++)
     {
-        status_case[i][i] = 0;
+        status_case[i] = 0;
     }
     for(i=0;i<nbcase;i=i+2)
     {
-        status_case[i][i]=50;
+        status_case[i]=50;
     }
     for(i=0;i<nbcase;i++)
     {
@@ -43,7 +44,7 @@ int main()
                 afficher_argent_joueur(argent);
             }
             position = position + de;
-            argent = argent - status_case[position][1];
+            argent = argent - status_case[position];
             printf("APRES:Position:%d",position);
             afficher_case(status_case, position);
             afficher_argent_joueur(argent);
