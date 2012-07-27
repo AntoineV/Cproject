@@ -12,7 +12,7 @@ void afficher_argent_joueur(int argent)
 {
     cout<<"Vous avez "<<argent<<"$"<<endl;
 }
-void afficher_cout_case(int status_case[],int position)
+void afficher_cout_case(int coutCase[],int position)
 {
-    cout<<"Cout case:"<<status_case[position]<<endl;
+    cout<<"Cout case:"<<coutCase[position]<<endl;
 }
