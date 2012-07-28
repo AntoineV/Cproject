@@ -10,3 +10,5 @@
 0.0.2 – Creer un deuxième fichier .c et son .h contenant l'ensemble des futures fonctions.
 0.0.3 – Creer une fonction qui retourne un chiffre de 1 a 6 et faire exécuter cette fonction dans le main.
 0.0.4 - Definir une variable qui decrira le nombre de cases de jeu, en definir une autre pour garder la position d'un joueur en mémoire et faire évoluer cette dernière a l'aide de la fonction qui retourne la valeur d'un dés.
+0.0.5 - Creation et possibilite d'acheter les cases du jeu
+
