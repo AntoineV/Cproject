@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1343394619 source:c:\users\antoine\documents\github\c\cproject\cplusproject\main.cpp
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<iostream>
+	"fonction.h"
+
+1343394600 c:\users\antoine\documents\github\c\cproject\cplusproject\fonction.h
+	<stdio.h>
+	<stdlib.h>
+
+1343394655 source:c:\users\antoine\documents\github\c\cproject\cplusproject\fonction.cpp
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	"fonction.h"
+
+1343397817 source:c:\users\antoine\documents\github\c\cproject\main.cpp
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<iostream>
+	"fonction.h"
+
+1343398143 c:\users\antoine\documents\github\c\cproject\fonction.h
+	<stdio.h>
+	<stdlib.h>
+
+1343398169 source:c:\users\antoine\documents\github\c\cproject\fonction.cpp
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	"fonction.h"
+
